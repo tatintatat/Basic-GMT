@@ -307,6 +307,7 @@ font-size:(3rem);
     font-size:4rem;
     text-align:center;
   }
+  }
   .banner__text p{
     font-size:1.5rem;
     font-weight:600;
@@ -330,7 +331,56 @@ font-size:(3rem);
 .banner__faq a{
   justify-content:center;
 }
+/* OFFER */
+.offer{
+  background:grey ;
+  background:var(--light);
+  height:80vh ;
 }
+.offer__text{
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.offer__text h2{
+  font-size: 5rem;
+  font-weight: 600;
+  color: #134A8C;
+}
+.offer__text p{
+  font-weight: 600;
+}
+.offer__wrapper{
+  display: flex;
+  position: absolute;
+  transform:translateY(15rem);
+}
+@media screen and (max-width:500px){
+  .offer h1{
+    font-size:4rem;
+    text-align:center;
+  }
+}
+  .offer__price h3{
+    font-size:6rem;
+    font-weight:600;
+    text-align:center;
+    color:orangered;
+  }
+  .offer__price__bot h3{
+    font-size:20rem;
+    font-weight:600;
+    text-align:center;
+    color:var(--primary);
+  }
+  .offer__price__bot h4{
+    font-size:3rem;
+    font-weight:600;
+    text-align:center;
+    color:var(--primary);
+  }
+
 /* REPEATABLE PATTERN */
 :root{
     --light:#ffffff;
