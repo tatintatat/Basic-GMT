@@ -439,13 +439,16 @@ font-size:(3rem);
     background:var(--light);
     height:100vh;
     justify-content: center;
-    text-items:center;
+    text-align: center;
+    height:70vh;
+    justify-content: space-between;
     }
     .recommended__text h2{
-    font-size:6rem;
+    font-size:7rem;
     color:var(--primary);
     font-weight:600;
     justify-content: center;
+    text-align: center;
     }
     .recommended__text{
       display:flex;
@@ -455,11 +458,38 @@ font-size:(3rem);
       max-width:75rem;
       margin: 0 auto;
       justify-content: space-between;
+
     }
     .recommended__text p{
       font: size 2px;
       font-weight:600;
     }
+    @media screen and (max-width:500px){
+      .recommended{
+        background:var(--light);
+        height:100vh;
+        justify-content: center;
+        text-align: center;
+        height:70vh;
+        justify-content: space-between;
+        }
+        .recommended__text h2{
+        font-size:3rem;
+        color:var(--primary);
+        font-weight:600;
+        justify-content: center;
+        text-align: center;
+        }
+    }
+    /* FOOTER */
+   .footer{
+    background:var(--primary);
+    position:relative;
+    width:100%;
+    z-index:999;
+   }
+
+  
 /* REPEATABLE PATTERN */
 :root{
     --light:#ffffff;
